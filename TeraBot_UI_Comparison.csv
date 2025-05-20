@@ -1,0 +1,40 @@
+Screen,Component,Property,Current Implementation,Figma Design,Matching,Notes
+SubscriptionActivity,Background,Image/Color,R.drawable.bg_chat_screen with ContentScale.FillHeight,Gradient background with specific colors,No,Background implementation differs from Figma design
+SubscriptionActivity,Header Title,Text,"stringResource(R.string.get_pro_access)",Similar title text,Yes,Text appears to match but styling may differ
+SubscriptionActivity,Header Title,Font Family,SvnGilroy,Unknown from code review,Unknown,Need to verify font in Figma
+SubscriptionActivity,Header Title,Font Weight,FontWeight.SemiBold,Unknown from code review,Unknown,Need to verify weight in Figma
+SubscriptionActivity,Header Title,Font Size,20.sp,Unknown from code review,Unknown,Need to verify size in Figma
+SubscriptionActivity,App Name Badge,Background,GlobalPrimaryBrush gradient,Unknown from code review,Unknown,Need to verify gradient in Figma
+SubscriptionActivity,Feature List,Layout,Column with 16.dp spacing,Unknown from code review,Unknown,Need to verify spacing in Figma
+SubscriptionActivity,Feature Icons,Size,32.dp,Unknown from code review,Unknown,Need to verify size in Figma
+SubscriptionActivity,Feature Text,Font Family,InterFont,Unknown from code review,Unknown,Need to verify font in Figma
+SubscriptionActivity,Feature Text,Font Weight,FontWeight.Medium,Unknown from code review,Unknown,Need to verify weight in Figma
+SubscriptionActivity,Feature Text,Font Size,14.sp with 20.sp line height,Unknown from code review,Unknown,Need to verify sizes in Figma
+SubscriptionActivity,Countdown Timer,Visibility,Conditional based on isOfferEnd,Unknown from code review,Unknown,Need to verify logic in Figma
+SubscriptionActivity,Subscription Options,Layout,Two implementations: standard and sale,Multiple subscription options,Partial,Implementation has both standard and sale versions
+SubscriptionActivity,Subscription Option Item,Corner Radius,RoundedCornerShape16,Unknown from code review,Unknown,Need to verify radius in Figma
+SubscriptionActivity,Subscription Option Item,Selected Border,1.5.dp width with GlobalPrimaryBrush,Unknown from code review,Unknown,Need to verify border in Figma
+SubscriptionActivity,Subscribe Button,Height,heightIn(min = 64.dp),Unknown from code review,Unknown,Need to verify height in Figma
+SubscriptionActivity,Subscribe Button,Corner Radius,RoundedCornerShape(40.dp),Unknown from code review,Unknown,Need to verify radius in Figma
+SubscriptionActivity,Subscribe Button,Background,GlobalPrimaryBrush gradient,Similar gradient,Likely Yes,Need to verify exact gradient colors
+SubscriptionActivity,Subscribe Button,Text Size,20.sp with 32.sp line height,Unknown from code review,Unknown,Need to verify sizes in Figma
+SubscriptionActivity,Footer Links,Position,Bottom with 8.dp margin,Unknown from code review,Unknown,Need to verify position in Figma
+SubscriptionActivity,Close Button,Size,28.dp with 16.dp icon,Unknown from code review,Unknown,Need to verify sizes in Figma
+SubscriptionActivity,Close Button,Background,Color.Black.copy(alpha = 0.12f),Unknown from code review,Unknown,Need to verify color in Figma
+MainActivity,Top Bar,Padding,padding(vertical = 16.dp horizontal = 16.dp),Unknown from code review,Unknown,Need to verify padding in Figma
+MainActivity,Settings Button,Size,32.dp,Unknown from code review,Unknown,Need to verify size in Figma
+MainActivity,Report Button,Visibility,Conditional based on isVisibleReport,Unknown from code review,Unknown,Need to verify logic in Figma
+MainActivity,App Name,Font Family,InterFont,Unknown from code review,Unknown,Need to verify font in Figma
+MainActivity,App Name,Font Weight,FontWeight.Bold,Unknown from code review,Unknown,Need to verify weight in Figma
+MainActivity,App Name,Font Size,22.sp,Unknown from code review,Unknown,Need to verify size in Figma
+MainActivity,PRO Button,Shape,RoundedCornerShape24,Unknown from code review,Unknown,Need to verify shape in Figma
+MainActivity,PRO Button,Background,PremiumButtonBrush,Unknown from code review,Unknown,Need to verify gradient in Figma
+MainActivity,PRO Button,Padding,padding(horizontal = 8.dp vertical = 4.dp),Unknown from code review,Unknown,Need to verify padding in Figma
+MainActivity,PRO Button,Icon Size,18.dp,Unknown from code review,Unknown,Need to verify size in Figma
+MainActivity,PRO Button,Text Size,16.sp,Unknown from code review,Unknown,Need to verify size in Figma
+MainActivity,Navigation Bar,Background,AppColor.Black.EerieBlack,Unknown from code review,Unknown,Need to verify color in Figma
+MainActivity,Navigation Item,Icon Size,24.dp,Unknown from code review,Unknown,Need to verify size in Figma
+MainActivity,Navigation Item,Selected Color,AppColor.White.White100,Unknown from code review,Unknown,Need to verify color in Figma
+MainActivity,Navigation Item,Unselected Color,AppColor.White.White32,Unknown from code review,Unknown,Need to verify color in Figma
+MainActivity,Chat Background,Image/Visibility,Conditional based on pagerState.currentPage == 0,Different backgrounds for tabs,Yes,Implementation matches this conditional approach
+MainActivity,Banner Ad,Presence,BannerAdsView at bottom,Not visible in Figma design,No,Addition not in Figma design
